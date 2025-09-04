@@ -22,7 +22,7 @@
 // no banco de dados.
 
 function cadastrarUsuario(nome, email) {
-let usuario = {
+let usuario  {
 nome: nome,
 email: email
 };

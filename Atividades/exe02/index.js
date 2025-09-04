@@ -91,15 +91,15 @@
 //2 uma falha
 //3 corrigi apenas tirando a miltiplicação do return 
 
-function exibirProduto(nome, preco) {
-    return "Produto: " + nome + ", Preço: R$ " + preco;
-    }
-    console.log(exibirProduto("Celular", "2000.50"));
+// function exibirProduto(nome, preco) {
+//     return "Produto: " + nome + ", Preço: R$ " + preco;
+//     }
+//     console.log(exibirProduto("Celular", "2000.50"));
 
-//1 O preço está sendo tratado como string ("2000.50") e não como número.
-// falha
-//function exibirProduto(nome, preco) {
-    return "Produto: " + nome + ", Preço: R$ " + parseFloat(preco).toFixed(2);
-}
-console.log(exibirProduto("Celular", 2000.5));
+// //1 O preço está sendo tratado como string ("2000.50") e não como número.
+// // falha
+// //function exibirProduto(nome, preco) {
+//     return "Produto: " + nome + ", Preço: R$ " + parseFloat(preco).toFixed(2);
+// }
+// console.log(exibirProduto("Celular", 2000.5));
 // Saída: Produto: Celular, Preço: R$ 2000.50
